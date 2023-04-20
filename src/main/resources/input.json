@@ -1,0 +1,26 @@
+[
+  {
+    "widget": "textField",
+    "widgetData": {
+      "type": "text",
+      "maxLength": 126
+    },
+    "validators": ["STRING_VALIDATOR"],
+    "isRequired": true,
+    "disabled": false,
+    "label": "First name",
+    "name": "first_name"
+  },
+  {
+    "widget": "textField",
+    "widgetData": {
+      "type": "text",
+      "maxLength": 256
+    },
+    "validators": [],
+    "isRequired": true,
+    "disabled": false,
+    "label": "Last name",
+    "name": "last_name"
+  }
+]
